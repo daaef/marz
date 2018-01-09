@@ -1,0 +1,124 @@
+.navbar{
+	background-color:  red;
+
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+#home img{
+	width: 100%;
+	height: 70vh
+}
+#about{
+	margin-bottom:  40px;
+	color: gray;
+
+}
+.about img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+#what img{
+		height: 200px;
+		width: 100%;
+		object-fit: cover;
+}
+#follow img{
+	width: 100%;
+	height: 200px;
+	opacity: 10;
+
+}
+#follow{
+
+}
+#footer{
+	background-color: red;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: white;
+}
+.book-appointment-section {
+	position: absolute;
+	height: 175px;
+	width: 175px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: red;
+	text-align: center;
+	padding: 30px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.21);
+	right: 20px;
+	bottom: 30px;
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: capitalize;
+}
+.book-appointment-section a{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.book-appointment-section:hover .inner-sec {
+	border-color: #7bc144;
+}
+.book-appointment-section .anchor-icon .icon-calendar {
+	width: auto;
+	height: auto;
+	line-height: 1;
+}
+h2{
+	color: #082900;
+	font-weight: 700;
+
+}
+#brand{
+	color: white;
+	font-family: cursive;
+	font-size: 22px;
+}
+
+}
+#social{
+	position: relative;
+	bottom: 6px;
+	top: 4px;
+	z-index: 10;
+}
+#socialMedia{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	list-style: none;
+
+}
+
+a:hover{
+	color: aqua;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-left: 20px
+}
+
+@media (max-width: 650px){
+
+#home img{
+	width: 100%;
+	height: 70vh;
+	object-fit: cover;
+}
+}
